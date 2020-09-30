@@ -1,0 +1,169 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Lucida Console", Courier, monospace;
+}
+body{
+    background-image: url(./img/bimage.jpg);
+    background-position: center;
+    background-repeat: no-repeat; 
+    backdrop-filter: saturate(100%) blur(5px);
+    background-size: cover;
+}
+.logonav{
+   color: aliceblue;
+   text-transform: uppercase;
+   font-size: 23px;
+   font-weight: 400;
+   padding: 10px;
+   
+}
+.logo{
+ background-color:  rgb(233, 5, 5);
+ padding: 5px;
+}
+.logonav p{
+    font-size: 15px;
+    float: right;
+    color: rgb(243, 237, 237) ;
+}
+
+ul{
+    padding-top: 150px;
+}
+ul li {
+    list-style: none;
+  display: block;
+  line-height: 70px;
+  
+}
+ul li a{
+    color: rgba(255, 10, 10, 0.979);
+    text-decoration: none;
+font-size: 20px;
+}
+.main-nav{
+   padding-top: 10px;
+ padding-left: 5px;
+    display: grid;
+    grid-template-columns: 250px 1fr;
+    
+}
+.text{
+   color: rgb(243, 235, 235);
+   padding-top: 200px;
+   font-size: 25px;
+   line-height: 30px;
+   font-weight: 600;
+}
+.highlight{
+    color: #df0a0a;
+  font-weight: bolder;
+  font-size: 35px;
+   
+}
+.text a{
+    color: rgb(12, 12, 12);
+}
+button{
+   padding-bottom: 0px;
+    background-color: rgba(224, 185, 8, 0.747);
+      
+}
+button p{
+    margin: 0px;
+    font-weight: 200;
+}
+
+.main-nav .text p{
+    font-size: 18px;
+    color: rgb(245, 245, 245);
+    font-weight: 200;
+}
+footer{
+    text-align: center;
+    padding-bottom: 10px;
+    color: rgb(243, 11, 11);
+}
+footer{
+    padding-top: 50px;
+   text-align: center;
+   padding-bottom: 5px;
+   color: rgb(243, 11, 11);
+   
+}
+.text a:hover{
+    text-decoration: none;
+    color: black;
+} 
+@media screen and (max-width:900px){
+    .main-nav{
+        display: block;
+    }
+    .picnav ul{
+        padding: 0px;
+        text-align: center;
+    }
+   .picnav ul li{
+       display: inline-block;
+      padding-left: 50px ;
+      padding-right: 50px;
+   }
+   .picnav ul li a{
+       font-size: 30px;
+   }
+   .text{
+       padding-top: 100px;
+       text-align: center;
+   }
+   
+}
+
+
+@media screen and (max-width:550px){
+    .line{
+        min-width: 0px;
+    }
+    .picnav ul li {
+   margin: 30px;
+    display: inline-block;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+   
+}
+@media screen and (max-width:450px){
+    .logonav{
+        color: aliceblue;
+        text-transform: uppercase;
+        font-size: 23px;
+        font-weight: 400;
+        padding: 10px;
+        text-align: center;
+     }
+     .logonav p{
+         padding-top: 10px;
+        font-size: 15px;
+        float: none;
+        color: rgb(243, 237, 237) ;
+    }
+    .text{
+        padding-top: 50px;
+        text-align: center;
+    }
+   
+     .line{
+        min-width: 0px;
+    }
+    .picnav ul li {
+        margin: 15px;
+         display: inline-block;
+         padding-top: 0px;
+         padding-left: 0px;
+         padding-right: 0px;
+       }
+   
+}
+ 
+
